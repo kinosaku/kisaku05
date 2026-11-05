@@ -1,34 +1,23 @@
 # kisaku05
 
-Personal academic homepage for 纪策. Hosted on GitHub Pages.
+Personal academic homepage for 纪策.
 
 **Website:** https://kinosaku.github.io/kisaku05/
 
-## Content
-
 Sun Yat-sen University · Mathematics · Information and Computing Science.
 
-Edit `index.html` to change the biography or education. The page uses plain HTML, CSS and JavaScript, with no build step or package dependencies.
+## Owner updates
 
-## Change the background
+The public website is read-only. It has no upload form, editor, visitor settings, database, or write endpoint. Changes to the published website require authenticated write access to this GitHub repository. Public visibility does not give visitors write access.
 
-1. Click **Background** in the page footer.
-2. Choose a photo and adjust its position. Changes are saved in the current browser only.
-3. Click **下载设置** to download `site-config.js`.
-4. In this repository, choose **Add file → Upload files**, upload that file and commit. This replaces the existing settings and publishes the new background to all visitors.
+Sign in as the repository owner to edit `index.html` (profile and education) or `style.css` (layout). To change the background, upload a photo to `assets/` and edit its path and credit in `site-config.js`. Commit to `main`; GitHub Pages publishes the update automatically. Replace `assets/avatar.png` to change the avatar.
 
-Alternatively, add an image to `assets/` and change the `background` path in `site-config.js`. Images selected through the page are resized and embedded in the exported settings, so they do not require a separate upload. **恢复默认** removes the browser's preview and displays the currently published settings.
+Keep repository access limited to the owner and explicitly authorized integrations. Do not add collaborators with write access if the site must remain owner-managed.
 
-## Avatar
+## Assets
 
-`assets/avatar.png` is the GitHub avatar of [@kinosaku](https://github.com/kinosaku) at the time of publication. Replace that file to update it.
+- Background: Diamond Beach, Nusa Penida, photographed by **Sneha Chandrashekar**, [Unsplash](https://unsplash.com/photos/ppx-nATa5qE), used under the [Unsplash License](https://unsplash.com/license). Stored locally at 2600 × 1950 pixels.
+- Chinese type: **LXGW WenKai**, based on Fontworks' Klee One. A local subset contains the Chinese characters displayed on this page. See `assets/wenkai-OFL.txt` for the SIL Open Font License. When adding Chinese text, extend the subset or use the full font.
+- Avatar: the GitHub avatar of [@kinosaku](https://github.com/kinosaku).
 
-## Photography and type
-
-Default background: Troye Sivan, photographed by **Ryan McGinley** for *Hero Magazine*, July 10, 2023. [Original photographer portfolio](https://ryanmcginley.com/magazines). Photograph rights remain with the respective rights holders; it is not included in a code license.
-
-Typeface: Cormorant Garamond, distributed under the SIL Open Font License. The font license is included in `assets/OFL.txt`.
-
-## Preview
-
-Serve this directory with any static web server. GitHub Pages is configured to serve the `main` branch from `/ (root)`.
+Plain HTML, CSS and JavaScript; no build step or external font service. GitHub Pages serves `main` from `/ (root)`.

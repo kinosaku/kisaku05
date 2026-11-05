@@ -1,11 +1,11 @@
-// Replace this file with the one exported from Background to publish your own photo.
+// Owner: edit this file in GitHub to publish a different background.
 window.SITE_CONFIG = {
-  background: 'assets/troye-coast.webp',
-  position: 50,
-  alt: 'Troye Sivan standing by the sea at dusk, photographed by Ryan McGinley',
+  background: 'assets/island-coast.webp',
+  positionX: 58,
+  alt: 'Turquoise waves breaking around the limestone sea stacks of Diamond Beach, Nusa Penida',
   credit: {
-    subject: 'Troye Sivan',
-    photographer: 'Ryan McGinley',
-    url: 'https://ryanmcginley.com/magazines'
+    subject: 'Nusa Penida, Bali',
+    photographer: 'Sneha Chandrashekar',
+    url: 'https://unsplash.com/photos/ppx-nATa5qE'
   }
 };
