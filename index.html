@@ -1,35 +1,41 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f3ed">
-  <meta name="description" content="纪策 · Sun Yat-sen University · Department of Mathematics · Major in Information and Computing Science.">
-  <meta property="og:title" content="纪策 — Personal homepage">
-  <meta property="og:description" content="纪策 · Sun Yat-sen University · Information and Computing Science">
+  <meta name="description" content="JI CE · Sun Yat-sen University · Department of Mathematics · Information and Computing Science.">
+  <meta property="og:title" content="JI CE — Personal homepage">
+  <meta property="og:description" content="JI CE · Sun Yat-sen University · Information and Computing Science">
   <meta property="og:type" content="profile">
-  <title>纪策 — Personal homepage</title>
+  <title>JI CE — Personal homepage</title>
   <link rel="icon" href="assets/avatar.png" type="image/png">
-  <link rel="stylesheet" href="style.css?v=4">
-  <script src="site-config.js?v=4" defer></script>
-  <script src="script.js?v=4" defer></script>
+  <link rel="stylesheet" href="style.css?v=5">
+  <script src="site-config.js?v=5" defer></script>
+  <script src="script.js?v=5" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#about">Skip to content</a>
+  <a class="skip-link" href="#about" data-i18n="skip">Skip to content</a>
   <div class="page">
-    <aside class="photograph" aria-label="澳大利亚纽波特海岸的海浪与礁石">
+    <aside class="photograph" aria-label="Waves and rocks off Newport, Australia" data-i18n-aria="photoRegion">
       <img id="background-photo" class="background-photo" src="https://images.unsplash.com/photo-1507350759767-d6e5918a8a7f?fm=webp&amp;q=92&amp;w=3992&amp;fit=max" srcset="https://images.unsplash.com/photo-1507350759767-d6e5918a8a7f?fm=webp&amp;q=92&amp;w=1280&amp;fit=max 1280w, https://images.unsplash.com/photo-1507350759767-d6e5918a8a7f?fm=webp&amp;q=92&amp;w=2560&amp;fit=max 2560w, https://images.unsplash.com/photo-1507350759767-d6e5918a8a7f?fm=webp&amp;q=92&amp;w=3992&amp;fit=max 3992w" sizes="(max-width: 760px) calc(100vw - 32px), (max-width: 1208px) calc(100vw - 48px), 1160px" width="3992" height="2242" alt="Aerial view of turquoise waves breaking around a rocky island off Newport, Australia" fetchpriority="high">
-      <div class="photo-topline"><span>Personal homepage</span><span aria-hidden="true">↗</span></div>
+      <div class="photo-topline"><span data-i18n="homepage">Personal homepage</span><span aria-hidden="true">↗</span></div>
       <div class="photo-bottomline" id="photo-credit">
-        <span>Newport, Australia</span>
+        <span id="photo-location">Newport, Australia</span>
         <a href="https://unsplash.com/photos/top-view-of-rocky-small-island-PVKmIt8tTvs" target="_blank" rel="noopener noreferrer">James Donaldson / Unsplash <span aria-hidden="true">↗</span></a>
       </div>
     </aside>
     <div class="paper">
       <header class="header">
-        <nav aria-label="Main navigation">
-          <a href="#about">About</a>
-          <a href="#education">Education</a>
+        <div class="language-switcher" role="group" aria-label="Language" data-i18n-aria="language" hidden>
+          <button type="button" data-language="en" lang="en" aria-pressed="true">English</button>
+          <button type="button" data-language="zh-Hans" lang="zh-Hans" aria-pressed="false">简体中文</button>
+          <button type="button" data-language="zh-Hant" lang="zh-Hant" aria-pressed="false">繁體中文</button>
+          <button type="button" data-language="ja" lang="ja" aria-pressed="false">日本語</button>
+        </div>
+        <nav aria-label="Main navigation" data-i18n-aria="navigation">
+          <a href="#about" data-i18n="about">About</a>
+          <a href="#education" data-i18n="education">Education</a>
           <a href="https://github.com/kinosaku" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
         </nav>
       </header>
@@ -37,37 +43,37 @@
       <main>
         <section class="intro" id="about" aria-labelledby="name">
           <div class="identity">
-            <img class="avatar" src="assets/avatar.png" width="112" height="112" alt="纪策的 GitHub 头像">
+            <img class="avatar" src="assets/avatar.png" width="112" height="112" alt="JI CE’s GitHub avatar" data-i18n-alt="avatar">
             <div>
-              <h1 id="name" class="chinese-name">纪策 <span class="name-divider" aria-hidden="true">/</span> <span class="roman-name">JI CE</span></h1>
-              <p class="identity-note">Undergraduate</p>
+              <h1 id="name" class="chinese-name" data-i18n="name">JI CE</h1>
+              <p class="identity-note" data-i18n="undergraduate">Undergraduate</p>
             </div>
           </div>
-          <p class="intro-university">Sun Yat-sen University</p>
-          <p class="intro-field">Department of Mathematics · Major in Information and Computing Science</p>
-          <div class="contact" aria-label="Email addresses">
-            <span class="contact-label">Email</span>
+          <p class="intro-university" data-i18n="university">Sun Yat-sen University</p>
+          <p class="intro-field" data-i18n="field">Department of Mathematics · Information and Computing Science</p>
+          <div class="contact" aria-label="Email addresses" data-i18n-aria="contact">
+            <span class="contact-label" data-i18n="email">Email</span>
             <a href="mailto:jice@mail2.sysu.edu.cn">jice@mail2.sysu.edu.cn</a>
             <a href="mailto:kiiig2024@outlook.com">kiiig2024@outlook.com</a>
           </div>
-          <a class="text-link education-link" href="#education">Academic background <span aria-hidden="true">↓</span></a>
+          <a class="text-link education-link" href="#education"><span data-i18n="academicBackground">Academic background</span> <span aria-hidden="true">↓</span></a>
         </section>
 
         <section class="education" id="education" aria-labelledby="education-title">
-          <div class="section-label"><h2 id="education-title">Education</h2><span aria-hidden="true">01</span></div>
+          <div class="section-label"><h2 id="education-title" data-i18n="education">Education</h2><span aria-hidden="true">01</span></div>
           <div class="education-entry">
             <span class="entry-mark" aria-hidden="true"></span>
             <div class="education-copy">
-              <h3>中山大学 <span>Sun Yat-sen University</span></h3>
-              <p class="education-field"><span class="han">数学系（Department of Mathematics） · 信息与计算科学（Information and Computing Science）专业</span></p>
+              <h3 data-i18n="university">Sun Yat-sen University</h3>
+              <p class="education-field"><span class="han" data-i18n="field">Department of Mathematics · Information and Computing Science</span></p>
             </div>
-            <span class="degree">Undergraduate</span>
+            <span class="degree" data-i18n="undergraduate">Undergraduate</span>
           </div>
         </section>
       </main>
 
       <footer class="footer">
-        <span>© <span id="year">2026</span> 纪策</span>
+        <span>© <span id="year">2026</span> <span data-i18n="name">JI CE</span></span>
       </footer>
     </div>
 
